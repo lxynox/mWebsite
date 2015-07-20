@@ -1,6 +1,6 @@
 # mWebsite
 pesonal website mainly static HTML (blog with MySQL database)
-check the dev branch for the project.
+I am the dev branch of this project 
 
 # introduction 
 build on process, continue to update ......
