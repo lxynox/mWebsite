@@ -1,0 +1,67 @@
+
+
+html {
+	font-family: 
+}
+body, html {
+	font-family:
+	font-size: 1.1em;
+}
+#left_side a {
+	text-decoration: none;
+	color: white;
+}
+#header {
+	background-color: cadetblue;
+	height: 50px;
+}
+/* left side bar with navigation bar */
+#left_side {
+	color: white; 
+	float: left;
+	background-color: #ac2b37;
+	height: inherit;
+	width: 30%; 
+}
+#home {
+	color: white;
+	margin-left: 20px; 
+	margin-bottom: 20px;
+}	
+#left_side p {
+	margin-left: 20px;
+}
+/* navigation bar on the left_side */
+nav dl {
+	margin-left: 20px;
+	display: block;
+	margin-bottom: 100px;
+} 
+nav dl dt {
+	padding: 5px;
+	width: 25%;
+}
+nav dl dt a {
+	text-decoration: none;
+}
+nav dl dt:hover {
+	background-color: #750F19;
+	border-radius: 4px;
+}
+/* right side bar with detail contents about me */ 
+#right_side {
+	clear: right;
+	background-color: white; 
+	height: 1000px;
+}
+
+/* footer/bottom of the page */
+#footer {
+	background-color: lightgrey;
+	height: 80px;
+	text-align: center;
+}
+/* images or medias */
+.head_image {
+	margin-left: 20px;
+}	 
