@@ -1,0 +1,71 @@
+html {
+	font-family: "Ubuntu",Helvetica,Arial,sans-serif;
+}
+body {
+	background-image: url(../images/resume_background.jpg);
+	background-size: 100% auto;
+	background-repeat: repeat-y;
+}
+div#wrapper {
+
+	margin-left: 17%;
+	width: 66%;
+	background-color: white;
+}
+div#header {
+	background-color: #ac2b37;
+	height: 160px;
+	color: white;
+	text-align: center;
+}
+div#header_text {
+	#clear: left;
+}
+div#header_img {
+	float: right;
+	padding: 30px;
+}
+div#contents {
+	background-color: white;
+}
+div#contents p {
+	margin-left: 40px;
+}
+span.date {
+	float: right;
+	margin-right: 30px;
+	font-size: .9em;
+	font-weight: normal;
+}
+div#wrapper h2 {
+	font-family: Georgia, serif;
+    #text-shadow: 5px 5px 5px #191970;
+
+	border-bottom: 2px solid #4682B4;
+	padding: 10px;
+	margin-top: 50px;
+	color: #4682B4;
+}
+div#wrapper h3 {
+	margin-left: 20px;
+}
+div#wrapper h4 {
+	margin-left: 40px;
+}
+div#wrapper ul {
+	border-top: dotted lightgrey 2px;
+	border-bottom: dotted lightgrey 2px;
+}
+div#wrapper ul li {
+	padding: 5px;
+	font-family: "Times New Roman",Georgia,Serif;
+}
+#project1,#project2 {
+	display: none;
+}
+.view_button {
+	margin-left: 40px;
+}
+
+
+

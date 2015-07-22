@@ -1,0 +1,46 @@
+<html>
+	<head>
+		<title>my blog</title>
+		<link href="blog.css" rel="stylesheet">
+		<script src="index.js"></script>	
+		<script type="text/javascript" src="http://www.wufangbo.com/demo/jquery-1.4.4.min.js"></script>
+	</head>
+	
+	<body>
+<!-- left navi bar -->	
+		<div id="left_side">
+			<header>
+				<h1 id="home">HOME</h1>	
+				<nav class="tags">
+					<dl>
+						<dt style="background-color: #750F19"><a href="">About Me</a></dt>
+						<dt><a href="">Blog</a></dt>
+						<dt><a href="">Software Engineering</a></dt>
+						<dt><a href="">Android</a></dt>
+						<dt><a href="./resume/resume.html">Resume</a></dt>  
+					</dl>
+				</nav>
+			</header>
+			<p>I am <b>Xuanyu Li</b>.</p> 
+			<p>I'm currently working on the field of <i>Software Engineering</i> (J2EE && Android developer).</p>
+			<p>I'm a big fan of software and technology and their magical power that changes people's lives.</p>
+			<div class="head_image">
+		  	<img src="../images/me.jpg" alt="images/me.png" width="200" height="200">	
+			</div>
+			<p>I could be reached at <span><i><a href="mailto:xli6@wpi.edu">xli6@wpi.edu</a></i></span></p>
+		</div> 
+
+<!-- right content section -->
+		<div id="right_side">
+			<!-- some contents about the blogs go here -->
+		</div>
+		
+<!-- bottom div -->
+		<div id="footer">
+			<p id="copyright"></p>
+			<script>
+				alert ("welcome to xuanyu's homepage ~~~");
+				document.getElementById("copyright").innerHTML = 
+	"<p>@copy, "+ new Date()+ "Xuanyu Li, all rights reserved.</p>";
+			</script>
+		</div>	
