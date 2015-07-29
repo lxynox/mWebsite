@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>my blog</title>
+		<!-- img icon in title -->
+		<link rel="shortcut icon" href="../images/title_icon.jpg" type="image/x-icon"/>
+		<link href="blog.css" rel="stylesheet">
+		<script src="../script/index.js"></script>	
+		<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+   		<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+	<!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>--> 		
+		<script type="text/javascript" src="http://www.wufangbo.com/demo/jquery-1.4.4.min.js"></script>
+	</head>
+	
+	<body>
+<!-- left navi bar -->	
+		<div id="left_side">
+			<header>
+				<h1 id="home">HOME</h1>	
+				<nav class="tags">
+					<dl>
+						<dt><a href="../index.html">About Me</a></dt>
+						<dt style="background-color: #750F19"><a href="">Blog</a></dt>
+						<dt><a href="../software/software.html">Software Engineering</a></dt>
+						<dt><a href="../android/android.html">Android</a></dt>
+						<dt><a href="../resume/resume.htm">Resume</a></dt>  
+					</dl>
+				</nav>
+			</header>
+			<p>I am <b>Xuanyu Li</b>.</p> 
+			<p>I'm currently working on the field of <strong>Software Engineering</strong> (J2EE && Android developer).</p>
+			<p>I'm a big fan of software and technology and their magical power that changes people's lives.</p>
+			<div class="head_image">
+		  	<img src="../images/me.jpg" alt="images/me.png" width="200" height="200">	
+			</div>
+			<p>I could be reached at <span><i><a href="mailto:xli6@wpi.edu">xli6@wpi.edu</a></i></span></p>
+		</div> 
+
+<!-- right content section -->
+		<div id="right_side">
+			<div id="blog_nav">
+				<ul>
+					<li id="oldBlog">My Blogs</li>
+					<li id="newBlog">New Blog</li>
+					<li id="comments">Comments</li>
+				</ul>
+			</div>
+			<!-- some contents about the blogs go here -->
+<!-- comments container -->
+			<div id="comments_div" class="selector">
+				<form action="" method="get" class="basic-grey">
+					<h1>Contact Form
+						<span>Please fill all the texts in the fields.</span>
+					</h1>
+					<label>
+						<span>Your Name :</span>
+						<input id="name" type="text" name="name" placeholder="Your Full Name" />
+					</label>
+					<label>
+						<span>Your Email :</span>
+						<input id="email" type="email" name="email" placeholder="Valid Email Address" />
+					</label>
+					<label>
+						<span>Message :</span>
+						<textarea id="message" name="message" placeholder="Your Message"></textarea>
+					</label>
+					<label>
+						<span>Subject :</span>
+						<select name="selection">
+							<option value="Job Inquiry">Job Inquiry</option>
+							<option value="General Question">General Question</option>
+						</select>
+					</label>
+					<label>
+						<span>&nbsp;</span>
+						<input type="submit" class="button" value="Send" />
+					</label>
+				</form>
+			</div>
+<!-- new blog container -->
+			<div id="newBlog_div" class="selector">
+				<form id="newBlog_form" action="" method="get">
+					<input type="hidden" name="requestType" value="add">
+					<fieldset>
+						<legend>new blog</legend>
+						<table id = "newUserTable">
+						<colgroup span = "2">
+							<col width = "2" style = "padding-left:30px">
+							<col width = "2" style = "">
+						</colgroup>
+							<!-- the first column of the table - span of 1 -->
+							<tr>
+								<td>Title</td>
+								<td><input type = "text" id = "blog_title" name = "title" 
+								placeholder = "article title here"> </td>
+							</tr>	
+							<tr>
+								<td>Tag</td>
+								<td><input type = "text" id = "blog_tag" name = "tag" 
+								placeholder = "article tag (category)"> </td>
+							</tr>
+						</table>	
+							
+						<textarea name="blog_paragraph">here to type texts
+						</textarea>
+						<br><br>
+						<input id= "newBlog_button" type="submit" name="submit_blog" value="Submit">
+					</fieldset>
+				</form>
+			</div>
+<!-- old blog container -->
+			<div id="oldBlog_div" class="selector">
+
+				<h3 style="border-bottom:solid lightgrey 2px">Blogs</h3>
+
+				<!-- empty div for spacing  -->
+				<div style="height: 100px"></div> 
+				
+				<h3 style="border-bottom:solid lightgrey 2px">Comments</h3>
+			</div>
+		</div>
+
+		<!-- empty div for spacing -->
+		<div style="clear:both;height:50px"></div>
+<!-- bottom div -->
+		<div id="footer">
+			<p id="copyright"></p>
+		</div>
+
+<script type="text/javascript" src="blog.js">	  
+
+</script>
+
+	</body>
+</html>
