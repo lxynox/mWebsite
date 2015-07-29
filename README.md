@@ -1,6 +1,6 @@
 # mWebsite
-# pesonal website mainly static HTML (blog with MySQL database).
-# the dev branch of this project .
+pesonal website mainly static HTML (blog with MySQL database).
+the dev branch of this project .
 refer to the homepage dir to view the source of front-end web design.
 
 # introduction 
