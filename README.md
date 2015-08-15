@@ -13,5 +13,5 @@
      <li>jsp(sevlet) + mysql + tomcat</li>
   </ul>
 
-> view the demo of mWebsite, click here <a href="home.allenlxy.com">home.allenlxy.com</a>
+> view the demo of mWebsite, click here <a href="http://home.allenlxy.com">home.allenlxy.com</a>
 <!--[Visit GitHub!](https://www.github.com).-->
