@@ -8,7 +8,10 @@
 > hosted on Linux server centOS, managed by cPanel</br>
 > domain name: www.allenlxy.com</br>
 ### technique used: 
-  - html + css ;
-  - jsp(sevlet) + mysql + tomcat
+  <ul type='circle'> 
+     <li>html + css ;</li>
+     <li>jsp(sevlet) + mysql + tomcat</li>
+  </ul>
 
+> view the demo of mWebsite, click here <a href="home.allenlxy.com">home.allenlxy.com</a>
 <!--[Visit GitHub!](https://www.github.com).-->
