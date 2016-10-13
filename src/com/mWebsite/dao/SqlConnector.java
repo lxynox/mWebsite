@@ -33,7 +33,7 @@ class SqlConnector {
    
 //   JDBC Credentials
 	private static final String USER_NAME = "root";  
-	private static final String PASSWORD = "lxyWPI920817";
+	private static final String PASSWORD = "root";
 	
 	/**
 	 * @param args
